@@ -132,7 +132,7 @@ creative-project-instruction/
 3. **変更後**
    - 全体の整合性を確認
    - 用語の統一性を検証
-   - テスト: base-instruction.mdからの読み込みフローを確認
+   - テスト: 各base-instruction-*.mdからの読み込みフローを確認
 
 ## 💡 ベストプラクティス
 
@@ -143,7 +143,7 @@ creative-project-instruction/
    - 新しいパスを追加する前にファイルを作成
 
 3. **ファイル間の整合性**
-   - base-instruction.mdと各creation-flowで機能説明が矛盾しないように
+   - 各base-instruction-*.mdと対応するcreation-flowで機能説明が矛盾しないように
 
 4. **定期的な整合性チェック**
    - 大きな変更後は全体レビューを実施
