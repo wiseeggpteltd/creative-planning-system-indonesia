@@ -1,41 +1,85 @@
 # オーガニック投稿動画制作 - 詳細フロー（インドネシア市場版）
 
-## Phase 0: リサーチとトレンド分析
+## Phase 0: 動画企画の確認
 
-### ステップ0-1: 投稿目的の明確化
+### ステップ0-1: 制作したい動画の内容確認
 
 ```
-投稿の目的を選択してください：
+どんな動画を作りたいですか？以下から選択、または具体的に教えてください：
 
-主目的：
+[A] 商品・サービスのプロモーション動画
+[B] エンタメ・バイラル動画
+[C] 教育・How-to動画  
+[D] ブランドストーリー動画
+[E] トレンドチャレンジ参加動画
+[F] その他（具体的に記述）
+
+詳細を教えてください：
+_________________________________
+（例：美容クリームの使い方を紹介したい、
+料理のレシピ動画を作りたい、
+ダンスチャレンジに参加したい等）
+
+参考にしたい動画・台本がありますか？（任意）
+_________________________________
+（URLや台本テキストを共有いただければ、
+それをベースにインドネシア市場向けに
+最適化した台本を作成します）
+```
+
+### ステップ0-2: 投稿目的とプラットフォーム選択
+
+```
+投稿の主な目的：
 □ フォロワー獲得（新規リーチ重視）
 □ エンゲージメント向上（既存フォロワー活性化）
 □ ブランド認知（価値観の共有）
-□ 教育/情報提供（有益コンテンツ）
-□ エンタメ/バズ（拡散狙い）
-
-サブ目的（複数選択可）：
+□ 商品・サービスの認知拡大
 □ コミュニティ形成
-□ UGC促進
-□ トレンド参加
-□ シリーズ化
-□ コラボレーション
+
+投稿プラットフォーム（複数選択可）：
+□ TikTok
+□ Instagram Reels
+□ YouTube Shorts
+□ Facebook Video
+□ Twitter Video
 ```
 
-### ステップ0-2: プラットフォーム別トレンド分析（インドネシア）
+## Phase 1: リサーチ＆フック作成
 
-**自動リサーチ実行（WebSearch活用）：**
+### ステップ1-1: 自動リサーチ実行（ユーザーの内容に基づく）
+
+**自動リサーチタスク（WebSearch/WebFetch並列実行）：**
 
 ```python
+# ユーザーの動画内容に基づいてカスタマイズされた検索
 並列検索クエリ:
-1. "TikTok trend Indonesia [bulan ini] viral"
-2. "Instagram Reels populer hashtag Indonesia [kategori]"
-3. "YouTube Shorts Indonesia viral [genre]"
-4. "[platform] algoritma Indonesia 2025 update"
-5. "[kategori] video engagement rate Indonesia"
+1. "[ユーザーのテーマ] TikTok Indonesia viral 2025"
+2. "[ユーザーのテーマ] Instagram Reels trend Indonesia"
+3. "[ユーザーのテーマ] konten viral Indonesia"
+4. "Similar content creators Indonesia [カテゴリ]"
+5. "[プラットフォーム] algorithm Indonesia engagement tips"
+
+# 競合・類似コンテンツ分析
+6. 人気クリエイターの最新投稿チェック
+7. エンゲージメント率の高いコンテンツ分析
+8. 使用されているBGM・エフェクトの調査
+
+# 参考台本がある場合の追加分析
+9. 参考台本の構造分析（フック、展開、オチ）
+10. 成功要因の抽出
+11. インドネシア市場向けローカライズポイントの特定
 ```
 
-### ステップ0-3: ターゲットオーディエンス分析（インドネシア）
+**リサーチレポート自動生成内容：**
+- トレンドキーワード Top 10
+- 効果的なフックパターン
+- 推奨BGM/音楽
+- 最適な投稿時間
+- 推奨ハッシュタグ（大中小規模ミックス）
+- 参考台本の分析結果（提供された場合）
+
+### ステップ1-2: ターゲットオーディエンス分析（インドネシア）
 
 ```yaml
 オーディエンスプロファイル:
@@ -64,9 +108,44 @@
       - Gotong Royong（参加性）
 ```
 
-### ステップ0-4: オーガニック最強フック15案の作成（インドネシアバイラル要素満載）
+### ステップ1-3: フックレベル選択（1-15）
+
+**15段階フックレベルから選択：**
+
+```
+推奨レベル診断：
+
+バイラル狙い度:
+□ とにかくバズりたい → Lv13-15推奨
+□ 適度にバイラル狙い → Lv8-12推奨
+□ 自然な投稿重視 → Lv1-7推奨
+
+選択したレベル: Lv[  ]
+```
+
+### ステップ1-4: オーガニック最強フック15案の作成（インドネシアバイラル要素満載）
 
 **フック作成の最重要原則：0.5秒で手を止めてフォローまで導く**
+
+**参考台本がある場合：**
+- 参考台本のフックを分析し、インドネシア市場向けにローカライズ
+- 成功要素を抽出して、15案に反映
+- オリジナルの良さを活かしつつ、ローカル要素を追加
+
+#### フック作成のナレッジベース活用
+
+**心理トリガー・マトリックス（選択したレベルに応じて使用）：**
+- Lv1-5: 通常フック（日常的な呼びかけ）
+- Lv6-10: 興味喚起フック（好奇心刺激）
+- Lv11-13: 感情爆発フック（強い感情訴求）
+- Lv14-15: 複合心理攻撃（全要素組み合わせ）
+
+**パワーフレーズ・データベース活用：**
+- 瞬間停止フレーズ（0-0.5秒）から選択
+- 視聴継続フレーズ（3-10秒）を組み込み
+- エンゲージメント促進フレーズ（終盤）を配置
+
+※詳細なフレーズリストは末尾の「フック作成ナレッジ」参照
 
 #### ナレーション密度設定（重要）
 ```yaml
@@ -187,193 +266,6 @@
   - Value edukasi/hiburan untuk follow
 ```
 
-### ステップ0-5: 心理トリガー・マトリックス（強度レベル1-15）インドネシア版
-
-**レベル1-5（弱）通常フック：**
-```
-例:
-- 「Halo guys」
-- 「Hari ini kita bahas...」
-- 「Mau share tentang...」
-効果: スクロール率90%以上
-```
-
-**レベル6-10（中）興味喚起フック：**
-```
-例:
-- 「Rugi banget kalo gak tau」
-- 「Tips rahasia nih」
-- 「Gila sih ini」
-効果: 停止率30-50%
-```
-
-**レベル11-13（強）感情爆発フック：**
-```
-例:
-- 「STOP! Wajib nonton!」
-- 「Nangis parah... serius」
-- 「Hidup gue berubah total」
-効果: 停止率50-70%
-```
-
-**レベル14-15（最強）複合心理攻撃：**
-```
-レベル14:
-視覚衝撃＋音響ショック＋感情トリガー
-「【爆発エフェクト】WOI! Yang gak tau ini rugi seumur hidup!」
-
-レベル15:
-全要素＋パーソナライズ＋極限の緊急性
-「【画面割れ】Kalo kamu masih ○○, STOP SEKARANG! 3 detik lagi nyesel」
-
-効果: 停止率70%以上、完全視聴率40%以上
-```
-
-#### インドネシア特化の最強フックパターン
-
-**1. 逆張り挑発型（レベル12-14）**
-```
-心理: 認知的不協和＋プライド刺激
-例:
-- 「Yang gak bisa ini, norak」
-- 「Masih gak tau? Ketinggalan jaman」
-- 「○○ masih gitu? Kampungan」
-- 「Cuma anak gaul yang paham」
-
-効果: コメント率300%増加
-```
-
-**2. 秘密暴露型（レベル13-15）**
-```
-心理: 内部情報への渇望
-例:
-- 「Eks karyawan bongkar semua」
-- 「Bisnis gelap ○○ dibongkar」
-- 「Dipecat gara-gara ini, gue bongkar」
-- 「Delete sebelum viral」
-
-効果: 保存率500%増加
-```
-
-**3. 限定チャレンジ型（レベル11-13）**
-```
-心理: 参加欲求＋競争心
-例:
-- 「10 detik bisa = jenius」
-- 「Cuma 0.1% yang bisa」
-- 「IQ 150 keatas aja paham」
-- 「Khusus ○○ komen ya」
-
-効果: エンゲージメント率200%増加
-```
-
-**4. 感情爆発型（レベル13-15）**
-```
-心理: 共感＋感情の伝染
-例:
-- 「Nangis... beneran nangis」
-- 「Merinding parah」
-- 「Momen paling ○○ seumur hidup」
-- 「Gemetar ngetik ini」
-
-効果: シェア率400%増加
-```
-
-**5. 予言・警告型（レベル12-14）**
-```
-心理: 不安＋予防欲求
-例:
-- 「Bulan depan ○○ gak bisa lagi」
-- 「2025 nyesel kalo gak tau」
-- 「Sekarang atau never」
-- 「Sebelum terlambat, nonton」
-
-効果: 保存率300%増加
-```
-
-### ステップ0-6: パワーフレーズ・データベース（インドネシア版）
-
-#### 瞬間停止フレーズ（0-0.5秒）
-```
-緊急停止系:
-- 「Woi tunggu!」
-- 「Stop scroll!」
-- 「3 detik aja!」
-- 「PENTING NIH!」
-- 「Cek sekarang!」
-
-感情爆発系:
-- 「Nangis parah」
-- 「Merinding」
-- 「Gak percaya」
-- 「Shock berat」
-- 「Life changing」
-
-挑発系:
-- 「Bisa gak?」
-- 「Mustahil sih」
-- 「Coba deh」
-- 「Buktiin」
-- 「Berani?」
-```
-
-#### 視聴継続フレーズ（3-10秒）
-```
-予告系:
-- 「Ending gila」
-- 「30 detik lagi paham」
-- 「Sampe akhir ya」
-- 「Jawaban di akhir」
-- 「Plot twist nanti」
-
-段階公開系:
-- 「Pertama...」
-- 「Yang kedua gila」
-- 「Lebih parah lagi」
-- 「Inti nya dari sini」
-- 「3 fakta shocking」
-
-カウント系:
-- 「3, 2, 1...」
-- 「Tinggal 10 detik」
-- 「Bentar lagi」
-- 「Siap?」
-- 「Yuk!」
-```
-
-#### エンゲージメント促進フレーズ（終盤）
-```
-コメント誘導:
-- 「Team mana?」
-- 「Kalian gimana?」
-- 「Pernah gak?」
-- 「Pendapat dong」
-- 「Yang setuju 👍」
-
-保存促進:
-- 「Save biar gak lupa」
-- 「Save buat nanti」
-- 「Share ke temen」
-- 「Save terus praktek」
-- 「Simpen aja dulu」
-
-フォロー促進:
-- 「Follow buat part 2」
-- 「Tiap hari post ○○」
-- 「Besok lanjut」
-- 「Konten eksklusif」
-- 「Besok upload lagi」
-
-シェア促進:
-- 「Tag yang ○○」
-- 「Sebarin guys」
-- 「Share yuk」
-- 「Kirim ke dia」
-- 「Kasih tau yang lain」
-```
-
-### ステップ0-7: 視聴継続を保証する心理的仕掛け（インドネシア版）
-
 #### プログレッシブ・リワード設計
 ```
 3秒ごとの報酬システム:
@@ -417,7 +309,6 @@
 締め: 「Yang tau, pinter」
 ```
 
-### ステップ0-8: ハッシュタグ戦略（インドネシア）
 
 **ハッシュタグ構成（30個まで）：**
 
@@ -435,9 +326,35 @@
   例: #[brand]challenge #[campaign名]
 ```
 
-## Phase 1: コンテンツ企画（5パターン作成）
+## Phase 2: 台本制作
 
-### ステップ1-1: フック15案から5つを選択し完全台本作成
+### ステップ2-1: ナレーションテイスト選択
+
+**6つのテイスト × 8つの体験要素から選択：**
+
+```
+ナレーションテイスト:
+□ プロフェッショナル（Profesional）
+□ フレンドリー（Ramah）
+□ エネルギッシュ（Semangat）
+□ エモーショナル（Baper）
+□ ニュートラル（Netral）
+□ 親密（Akrab）
+
+体験要素:
+□ 悩み（Masalah）
+□ 失敗談（Kegagalan）
+□ きっかけ（Momentum）
+□ 実感（Realisasi）
+□ 喜び（Kebahagiaan）
+□ 後悔（Penyesalan）
+□ 驚き（Kejutan）
+□ 比較（Perbandingan）
+
+選択した組み合わせ: [テイスト] × [体験要素]
+```
+
+### ステップ2-2: フック15案から5つを選択し完全台本作成
 
 **選択基準：**
 - バイラル可能性の高い5つを選択
@@ -623,7 +540,23 @@ Drop skincare kalian!」
 - Accessibility (Indomaret)
 ```
 
-### ステップ1-2: プラットフォーム別最強最適化戦略（インドネシア）
+### ステップ2-3: 最終台本の選択と調整
+
+**5つの台本から最終版を選択：**
+
+```
+最終選択基準:
+□ ユーザーの目的に最も合致
+□ プラットフォームアルゴリズムとの相性
+□ リサーチ結果との整合性
+□ 実現可能性（撮影・編集の難易度）
+
+選択した台本: [番号]
+
+調整事項:
+_________________________________
+（長さ調整、表現の微修正等）
+```
 
 #### TikTok Indonesia完全攻略
 
@@ -658,9 +591,30 @@ TikTok必勝要素:
     - シェア率: 2%以上
 ```
 
-## Phase 2: 制作実行
+## Phase 3: 制作実行
 
-### ステップ2-1: 素材リスト生成（3層構造）
+### ステップ3-1: シーン分割（秒単位で詳細に）
+
+**台本をシーンごとに分解：**
+
+```yaml
+シーン構成表:
+  シーン1（0-3秒）:
+    内容: [フック]
+    ビジュアル: [具体的な映像]
+    音声: [ナレーション/BGM]
+    テキスト: [字幕/キャプション]
+    
+  シーン2（3-10秒）:
+    内容: [展開1]
+    ビジュアル: [具体的な映像]
+    音声: [ナレーション/BGM]
+    テキスト: [字幕/キャプション]
+    
+  # 以下、動画の長さに応じて続く
+```
+
+### ステップ3-2: 素材リスト生成（3層構造）
 
 #### Layer 1: シンプルキーワード（基本要素）
 
@@ -725,7 +679,7 @@ TikTok必勝要素:
     Indonesian tutorial style popular on social media"
 ```
 
-#### Layer 3: 制作仕様とプラットフォーム最適化
+### ステップ3-3: AI生成プロンプトと制作仕様
 
 ```yaml
 動画仕様:
@@ -769,6 +723,29 @@ TikTok必勝要素:
   YouTube Indonesia:
     優先指標: Watch time, komentar Bahasa Indonesia
     ブースト要因: Judul SEO Indonesia, thumbnail menarik
+```
+
+### ステップ3-4: 投稿設定（キャプション、ハッシュタグ、投稿時間）
+
+**投稿設定の最適化：**
+
+```yaml
+キャプション作成:
+  フック文: [最初の1行で興味を引く]
+  本文: [簡潔に価値を伝える]
+  CTA: [コメント・シェア・フォロー促進]
+  
+ハッシュタグ戦略（30個まで）:
+  大規模タグ（1M+）: 5個
+  中規模タグ（100K-1M）: 10個  
+  小規模タグ（10K-100K）: 10個
+  オリジナルタグ: 5個
+  
+投稿時間:
+  推奨時間帯（インドネシア）:
+    - 朝: 07:00-09:00 WIB
+    - 昼: 12:00-13:00 WIB
+    - 夜: 19:00-22:00 WIB（ゴールデンタイム）
 ```
 
 ## 最終成果物
@@ -886,9 +863,11 @@ CTA_インドネシアエンゲージメント:
 - Followers増加: [target]
 ```
 
-## Phase 3: 分析と改善
+---
 
-### パフォーマンス分析（インドネシア市場）
+**注意**: インドネシア市場では、ローカル文化への深い理解と respect が成功の鍵。Gotong royong精神を大切にし、community building を重視したコンテンツ戦略で長期的な成功を目指しましょう。
+
+## パフォーマンス分析指標（参考）
 
 ```yaml
 成功指標:
@@ -910,4 +889,189 @@ CTA_インドネシアエンゲージメント:
 
 ---
 
-**注意**: インドネシア市場では、ローカル文化への深い理解と respect が成功の鍵。Gotong royong精神を大切にし、community building を重視したコンテンツ戦略で長期的な成功を目指しましょう。
+## フック作成ナレッジ（参照資料）
+
+### 心理トリガー・マトリックス（強度レベル1-15）インドネシア版
+
+**レベル1-5（弱）通常フック：**
+```
+例:
+- 「Halo guys」
+- 「Hari ini kita bahas...」
+- 「Mau share tentang...」
+効果: スクロール率90%以上
+```
+
+**レベル6-10（中）興味喚起フック：**
+```
+例:
+- 「Rugi banget kalo gak tau」
+- 「Tips rahasia nih」
+- 「Gila sih ini」
+効果: 停止率30-50%
+```
+
+**レベル11-13（強）感情爆発フック：**
+```
+例:
+- 「STOP! Wajib nonton!」
+- 「Nangis parah... serius」
+- 「Hidup gue berubah total」
+効果: 停止率50-70%
+```
+
+**レベル14-15（最強）複合心理攻撃：**
+```
+レベル14:
+視覚衝撃＋音響ショック＋感情トリガー
+「【爆発エフェクト】WOI! Yang gak tau ini rugi seumur hidup!」
+
+レベル15:
+全要素＋パーソナライズ＋極限の緊急性
+「【画面割れ】Kalo kamu masih ○○, STOP SEKARANG! 3 detik lagi nyesel」
+
+効果: 停止率70%以上、完全視聴率40%以上
+```
+
+#### インドネシア特化の最強フックパターン
+
+**1. 逆張り挑発型（レベル12-14）**
+```
+心理: 認知的不協和＋プライド刺激
+例:
+- 「Yang gak bisa ini, norak」
+- 「Masih gak tau? Ketinggalan jaman」
+- 「○○ masih gitu? Kampungan」
+- 「Cuma anak gaul yang paham」
+
+効果: コメント率300%増加
+```
+
+**2. 秘密暴露型（レベル13-15）**
+```
+心理: 内部情報への渇望
+例:
+- 「Eks karyawan bongkar semua」
+- 「Bisnis gelap ○○ dibongkar」
+- 「Dipecat gara-gara ini, gue bongkar」
+- 「Delete sebelum viral」
+
+効果: 保存率500%増加
+```
+
+**3. 限定チャレンジ型（レベル11-13）**
+```
+心理: 参加欲求＋競争心
+例:
+- 「10 detik bisa = jenius」
+- 「Cuma 0.1% yang bisa」
+- 「IQ 150 keatas aja paham」
+- 「Khusus ○○ komen ya」
+
+効果: エンゲージメント率200%増加
+```
+
+**4. 感情爆発型（レベル13-15）**
+```
+心理: 共感＋感情の伝染
+例:
+- 「Nangis... beneran nangis」
+- 「Merinding parah」
+- 「Momen paling ○○ seumur hidup」
+- 「Gemetar ngetik ini」
+
+効果: シェア率400%増加
+```
+
+**5. 予言・警告型（レベル12-14）**
+```
+心理: 不安＋予防欲求
+例:
+- 「Bulan depan ○○ gak bisa lagi」
+- 「2025 nyesel kalo gak tau」
+- 「Sekarang atau never」
+- 「Sebelum terlambat, nonton」
+
+効果: 保存率300%増加
+```
+
+### パワーフレーズ・データベース（インドネシア版）
+
+#### 瞬間停止フレーズ（0-0.5秒）
+```
+緊急停止系:
+- 「Woi tunggu!」
+- 「Stop scroll!」
+- 「3 detik aja!」
+- 「PENTING NIH!」
+- 「Cek sekarang!」
+
+感情爆発系:
+- 「Nangis parah」
+- 「Merinding」
+- 「Gak percaya」
+- 「Shock berat」
+- 「Life changing」
+
+挑発系:
+- 「Bisa gak?」
+- 「Mustahil sih」
+- 「Coba deh」
+- 「Buktiin」
+- 「Berani?」
+```
+
+#### 視聴継続フレーズ（3-10秒）
+```
+予告系:
+- 「Ending gila」
+- 「30 detik lagi paham」
+- 「Sampe akhir ya」
+- 「Jawaban di akhir」
+- 「Plot twist nanti」
+
+段階公開系:
+- 「Pertama...」
+- 「Yang kedua gila」
+- 「Lebih parah lagi」
+- 「Inti nya dari sini」
+- 「3 fakta shocking」
+
+カウント系:
+- 「3, 2, 1...」
+- 「Tinggal 10 detik」
+- 「Bentar lagi」
+- 「Siap?」
+- 「Yuk!」
+```
+
+#### エンゲージメント促進フレーズ（終盤）
+```
+コメント誘導:
+- 「Team mana?」
+- 「Kalian gimana?」
+- 「Pernah gak?」
+- 「Pendapat dong」
+- 「Yang setuju 👍」
+
+保存促進:
+- 「Save biar gak lupa」
+- 「Save buat nanti」
+- 「Share ke temen」
+- 「Save terus praktek」
+- 「Simpen aja dulu」
+
+フォロー促進:
+- 「Follow buat part 2」
+- 「Tiap hari post ○○」
+- 「Besok lanjut」
+- 「Konten eksklusif」
+- 「Besok upload lagi」
+
+シェア促進:
+- 「Tag yang ○○」
+- 「Sebarin guys」
+- 「Share yuk」
+- 「Kirim ke dia」
+- 「Kasih tau yang lain」
+```
