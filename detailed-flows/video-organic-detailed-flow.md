@@ -51,12 +51,10 @@ _________________________________
 
 **ナレッジベース活用（最優先）：**
 ```yaml
-knowledge-base/video-organic-examples/ 内の事例を必ず確認:
-  - tiktok-trend.md: TikTokトレンド投稿
-  - instagram-reels-lifestyle.md: Instagram Reelsライフスタイル
-  - youtube-shorts-comedy.md: YouTube Shortsコメディ
-  - facebook-community.md: Facebookコミュニティ投稿
-  - twitter-viral.md: Twitterバイラル投稿
+ナレッジベース検索と活用:
+  - knowledge-base内の関連事例を検索
+  - ユーザーの動画内容と類似するカテゴリーの成功事例を探索
+  - プラットフォーム別の実績ある投稿パターンを参照
 
 活用方法:
   1. ユーザーの動画内容と類似するカテゴリーの事例を特定
