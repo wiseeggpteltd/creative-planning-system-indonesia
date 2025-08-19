@@ -49,6 +49,25 @@ _________________________________
 
 ### ステップ1-1: 自動リサーチ実行（ユーザーの内容に基づく）
 
+**ナレッジベース活用（最優先）：**
+```yaml
+knowledge-base/video-organic-examples/ 内の事例を必ず確認:
+  - tiktok-trend.md: TikTokトレンド投稿
+  - instagram-reels-lifestyle.md: Instagram Reelsライフスタイル
+  - youtube-shorts-comedy.md: YouTube Shortsコメディ
+  - facebook-community.md: Facebookコミュニティ投稿
+  - twitter-viral.md: Twitterバイラル投稿
+
+活用方法:
+  1. ユーザーの動画内容と類似するカテゴリーの事例を特定
+  2. 成功したフック構造とエンゲージメント要素を分析
+  3. ローカル文化要素（anak kos、Gotong Royong等）の使い方を学習
+  4. ハッシュタグ戦略、投稿タイミング、BGM選択を参考に
+  5. フック作成と台本制作に積極的に反映
+
+※成功事例がある場合は、その要素を必ず組み込む
+```
+
 **自動リサーチタスク（WebSearch/WebFetch並列実行）：**
 
 ```python
@@ -71,7 +90,8 @@ _________________________________
 11. インドネシア市場向けローカライズポイントの特定
 ```
 
-**リサーチレポート自動生成内容：**
+**リサーチレポート生成内容：**
+- ナレッジベースから参考にした成功事例（必須）
 - トレンドキーワード Top 10
 - 効果的なフックパターン
 - 推奨BGM/音楽
